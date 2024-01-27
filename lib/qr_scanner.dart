@@ -29,7 +29,7 @@ class _QrScannerState extends State<QrScanner> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Athu')),
+      appBar: AppBar(title: const Text('QR Scanner')),
       body: ListView(
         children: [
           Container(
@@ -37,13 +37,13 @@ class _QrScannerState extends State<QrScanner> {
             child: Center(
                 child: Column(
               children: [
-                Text('$qrResult'),
-                SizedBox(
+                Text(qrResult),
+                const SizedBox(
                   height: 30,
                 ),
                 ElevatedButton(
                   onPressed:scanQR,
-                  child: Text(
+                  child: const Text(
                     'Scan now',
                   ),
                 ),

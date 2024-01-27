@@ -42,6 +42,9 @@ dependencies:
   walletconnect_qrcode_modal_dart: ^0.4.3
   web3modal_flutter: ^3.0.1
   web3dart: ^2.7.1
+  http: ^1.1.2
+  shared_preferences: ^2.2.2
+  pinput: ^3.0.1
   
 
 dev_dependencies:
